@@ -44,4 +44,4 @@ project-root/
 - Integrate with Jenkins or other CI tools for automated test execution and reporting.
 
 ## Author
-Sunil Kumar
+Sunil Khorwal
