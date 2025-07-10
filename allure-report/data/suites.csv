@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5576","should login with valid credentials","","Thu Jul 10 15:41:29 IST 2025","passed","Thu Jul 10 15:41:35 IST 2025","","My Login application","",""
+"","6843","should login with valid credentials","","Thu Jul 10 15:41:29 IST 2025","passed","Thu Jul 10 15:41:36 IST 2025","","Demo Login","",""
+"","12487","should login with valid credentials","","Thu Jul 10 15:25:14 IST 2025","broken","Thu Jul 10 15:25:26 IST 2025","","Amazon Login","",""
