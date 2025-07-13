@@ -4,10 +4,9 @@ pipeline {
         nodejs 'NodeJS' // Name of NodeJS tool in Jenkins (configure in Jenkins global tools)
     }
     stages {
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
-                // Modify the git step to explicitly specify the branch
-                git url: 'https://github.com/sunilkhorwal59/Login-wdio-testSunil', branch: 'main'
+                git branch: 'main', url: 'https://github.com/sunilkhorwal59/Login-wdio-testSunil'
             }
         }
         stage('Install Dependencies') {
