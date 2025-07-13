@@ -16,7 +16,10 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-                sh 'npx wdio run wdio.conf.js'
+                // Modify the command to run specific tests using --spec
+                // Replace './path/to/your/successful/test1.js' and './path/to/your/successful/test2.js'
+                // with the actual paths to the test files you want to run.
+                sh 'npx wdio run wdio.conf.js --spec ./path/to/your/successful/test1.js --spec ./path/to/your/successful/test2.js'
             }
         }
         stage('Generate Allure Report') {
