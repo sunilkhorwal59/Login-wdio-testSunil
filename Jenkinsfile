@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/sunilkhorwal59/Login-wdio-testSunil'
+                // Modify the git step to explicitly specify the branch
+                git url: 'https://github.com/sunilkhorwal59/Login-wdio-testSunil', branch: 'main'
             }
         }
         stage('Install Dependencies') {
